@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssgabung.css">
+    <title>Joyko</title>
+</head>
+<body>
+    <div id="header-atas">
+        <div id="logo">
+            <img src="joyko-logo.png" width="65%">
+        </div>
+    
+    
+        <ul id="menu-utama">
+        
+            <li class="batas"><a href="index_utama.html">Home</a></li>
+            <li class="batas"><a href="about_us.html">About US</a></li>
+            <li class="batas">product</li>
+            <li class="batas">joyart</li>
+            <li class="batas">TiTi</li>
+            <li class="batas"><a href="e_catalogue.html">E-Catalogue</a></li>
+            <li class="batas">Video</li>
+            <li class="batas"><a href="biodata.html">Biodata</a></li>
+            <li class="batas"><a href="contact_us.html">Contact Us</a></li>
+            <li class="batas"><img src="search-logo.png" style="width: 15px;" id="search">Search</li>
+        
+        </ul>
+        <div class="logo-bahasa">
+            <img src="id.png" alt="Indonesia">
+            <img src="en.png" alt="English">
+        </div>
+
+    </div>
+    <div class="slideshow">
+        <img class="geser" src="image.jpg" style="width:100%">
+        <img class="geser" src="image1.jpg" style="width: 100%;">
+        <img class="geser" src="image2.jpg" style="width: 100%;">
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("geser");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3000); // Change image every 2 seconds
+        }
+    </script>
+    <div class="text-tengah">joyko world</div>
+    <div class="gambar" style="max-width: 500px;">
+        <img src="deskset.jpg" width="240px" height="240px"><br>deskset
+                
+    </div>
+    <div class="gambar">
+        <img src="drawithtiti.jpg" width="240px" height="240px"><br> drawing with titi
+               
+    </div>
+    <div class="gambar">
+        <img src="tumbler.jpg" width="240px" height="240px"><br>tumbler
+                
+    </div>
+    <div class="gambar">
+        <img src="titijoyko.jpg" width="240px" height="240px"><br>titi joyko
+                
+    </div>
+        
+    
+    <div class="text-agakbawah">new product</div>
+    <div class="gambar-lagi">
+        <img src="eraser.jpg" width="240px" height="150px" ><br> Eraser er-116
+               
+    </div>
+    <div class="gambar-lagi">
+        <img src="sharpener.jpg" width="240px" height="150px" ><br> sharpener
+               
+    </div>
+    <div class="gambar-lagi">
+        <img src="highlighter.jpg" width="240px" height="150px" ><br> highlighter
+               
+    </div>
+    <div class="gambar-lagi">
+        <img src="pembatas.jpg" width="240px" height="150px" ><br> index im (paper)
+               
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <div id="footer-bawah">
+        <div id="footer">
+            <div class="kolom-kuning">
+                <h3>Contact Us</h3>
+                <hr class="garis-batas">
+                <ul class="ulkuning">
+                    <li class="kuning">Contact Us</li>
+                    <li class="kuning">About Us</li>
+                    <li class="kuning">Vision Mission</li>
+                </ul>
+
+            </div>
+            <h3>Follow Us</h3>
+           <hr class="garis-batas1">
+            <ul class="ulkuning-sebelah">
+                <img src="fb.png" style="width: 15px;" ><br><li class="kuning2">Joykoid</li>
+                <img src="ig.png" style="width:15px;" ><li class="kuning2">Joyko_id</li>
+                
+            </ul>
+        </div>
+            <h3 class="semoga">Official Store</h3>
+            <hr class="garis-batas2">
+                <span class="semoga2">
+            <img src="tokopedia.png" style="width: 80px;"><img src="shopee.png" style="width: 80px;"><br>
+            <img src="lazada.png" style="width: 80px;"><img src="bukalapak.png" style="width: 80px;"><br>
+            <img src="jdid.png" style="width: 80px;"><img src="blibli.png" style="width: 80px;">
+                    </span>
+
+    </div>
+</body>
+
+</html>

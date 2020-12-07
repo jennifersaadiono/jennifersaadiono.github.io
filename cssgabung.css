@@ -84,6 +84,10 @@ li.batas{
     color: #000000;
     margin: 10px;
 }
+.samping{
+    margin-left: 190px;
+}
+
 .gambar{
     float: left;
     display: block;
@@ -200,9 +204,6 @@ h3{
     
 }
 
-/* .kcl{
-    float: left;
-} */
 .kuning2{
     list-style: none;
     font-size: 12px;
@@ -217,7 +218,7 @@ h3{
 .semoga{
     position: relative;
    top: -148px;
-   left:  275px;
+   left:  500px;
    text-align: left;
     font-size: 14px;
     margin-top: 0px;
@@ -239,7 +240,7 @@ h3{
 .semoga2{
     position: relative;;
     top: -150px;
-    left: 280px;
+    left: 500px;
 }
 
 

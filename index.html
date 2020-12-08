@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cssgabung.css">
-    <title>Joyko.id</title>
+    <title>Joyko</title>
 </head>
 <body>
     <div id="header-atas">
@@ -15,7 +15,7 @@
     
         <ul id="menu-utama">
         
-            <li class="batas"><a href="index_utama.html">Home</a></li>
+            <li class="batas"><a href="halaman_utama.html">Home</a></li>
             <li class="batas"><a href="about_us.html">About US</a></li>
             <li class="batas">product</li>
             <li class="batas">joyart</li>
@@ -43,18 +43,20 @@
         carousel();
         
         function carousel() {
-          var i;
-          var x = document.getElementsByClassName("geser");
-          for (i = 0; i < x.length; i++) {
+            var i;
+            var x = document.getElementsByClassName("geser");
+            for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";  
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}    
-          x[myIndex-1].style.display = "block";  
-          setTimeout(carousel, 3000); // Change image every 2 seconds
-        }
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 3000); // Change image every 2 seconds
+            }
     </script>
+    
     <div class="text-tengah">joyko world</div>
+    <div class="samping">
     <div class="gambar" style="max-width: 500px;">
         <img src="deskset.jpg" width="240px" height="240px"><br>deskset
                 
@@ -71,9 +73,10 @@
         <img src="titijoyko.jpg" width="240px" height="240px"><br>titi joyko
                 
     </div>
-        
+    </div>
     
     <div class="text-agakbawah">new product</div>
+    <div class="samping">
     <div class="gambar-lagi">
         <img src="eraser.jpg" width="240px" height="150px" ><br> Eraser er-116
                
@@ -90,6 +93,7 @@
         <img src="pembatas.jpg" width="240px" height="150px" ><br> index im (paper)
                
     </div>
+</div>
     <br>
     <br>
     <br>

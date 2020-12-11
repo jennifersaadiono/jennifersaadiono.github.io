@@ -5,15 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cssgabung.css">
     <title>Joyko</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div id="header-atas">
+   <!-- <div id="header-atas">
         <div id="logo">
             <img src="joyko-logo.png" width="65%">
-        </div>
+        </div> -->
+        <img src="joyko-logo.png" class="mx-auto d-block" width="15%">
+        
+        
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">joyart</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">TiTi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">E-Catalogue</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Video</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-warning" href="#">search</a>
+            
+            </li>
+            <li class="nav-item">
+                <img src="search-logo.png" style="width: 20px;" id="search">
+            </li>
+            
+        </ul>
     
-    
-        <ul id="menu-utama">
+       <!-- <ul id="menu-utama">
         
             <li class="batas"><a href="halaman_utama.html">Home</a></li>
             <li class="batas"><a href="about_us.html">About US</a></li>
@@ -25,20 +65,50 @@
             <li class="batas"><a href="biodata.html">Biodata</a></li>
             <li class="batas"><a href="contact_us.html">Contact Us</a></li>
             <li class="batas"><img src="search-logo.png" style="width: 15px;" id="search">Search</li>
-        
-        </ul>
+       -->
         <div class="logo-bahasa">
             <img src="id.png" alt="Indonesia">
             <img src="en.png" alt="English">
         </div>
 
     </div>
-    <div class="slideshow">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image.jpg" class="geser" alt="Gambar 1" width="100%" >
+            </div>
+            <div class="carousel-item">
+                <img src="image1.jpg" class="geser" alt="Gambar 2" width="100%" >
+            </div>
+            <div class="carousel-item">
+                <img src="image2.jpg" class="geser" alt="Gambar 3" width="100%" >
+            </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    
+   <!-- <div class="slideshow">
         <img class="geser" src="image.jpg" style="width:100%">
         <img class="geser" src="image1.jpg" style="width: 100%;">
         <img class="geser" src="image2.jpg" style="width: 100%;">
-    </div>
-    <script>
+    </div> -->
+        <!--<script>
         var myIndex = 0;
         carousel();
         
@@ -53,9 +123,26 @@
             x[myIndex-1].style.display = "block";  
             setTimeout(carousel, 3000); // Change image every 2 seconds
             }
-    </script>
+        </script> -->
     
-    <div class="text-tengah">joyko world</div>
+        <div class="text-tengah">joyko world</div>
+            <div class="samping"> 
+                <div class="row">
+                    <div class="col-xl-3 gambar" style="max-width: 260px;">
+                        <img src="deskset.jpg" width="240px" height="240px"><br>deskset
+                     </div>
+                    <div class="col-xl-3 gambar"  style="max-width: 260px;">
+                        <img src="drawithtiti.jpg" width="240px" height="240px"><br> drawing with titi
+                    </div>
+                    <div class="col-xl-3 gambar"  style="max-width: 260px;">
+                        <img src="tumbler.jpg" width="240px" height="240px"><br>tumbler
+                    </div>
+                    <div class="col-xl-3 gambar"  style="max-width: 260px;">
+                        <img src="titijoyko.jpg" width="240px" height="240px"><br>titi joyko
+                    </div>
+           </div>
+          </div>
+   <!-- <div class="text-tengah">joyko world</div>
     <div class="samping">
     <div class="gambar" style="max-width: 500px;">
         <img src="deskset.jpg" width="240px" height="240px"><br>deskset
@@ -64,7 +151,7 @@
     <div class="gambar">
         <img src="drawithtiti.jpg" width="240px" height="240px"><br> drawing with titi
                
-    </div>
+
     <div class="gambar">
         <img src="tumbler.jpg" width="240px" height="240px"><br>tumbler
                 
@@ -74,8 +161,25 @@
                 
     </div>
     </div>
+-->
+<div class="text-agakbawah">new product</div>
+            <div class="samping"> 
+                <div class="row">
+                    <div class="col-xl-3 gambar-lagi"  style="max-width: 260px;">
+                        <img src="eraser.jpg" width="240px" height="150px" ><br> Eraser er-116
+                     </div>
+                    <div class="col-xl-3 gambar-lagi"  style="max-width: 260px;">
+                        <img src="sharpener.jpg" width="240px" height="150px" ><br> sharpener
+                    </div>
+                    <div class="col-xl-3 gambar-lagi"  style="max-width: 260px;">
+                        <img src="highlighter.jpg" width="240px" height="150px" ><br> highlighter
+                    </div>
+                    <div class="col-xl-3 gambar-lagi"  style="max-width: 260px;">
+                        <img src="pembatas.jpg" width="240px" height="150px" ><br> index im (paper)
+           </div>
+          </div>
     
-    <div class="text-agakbawah">new product</div>
+   <!-- <div class="text-agakbawah">new product</div>
     <div class="samping">
     <div class="gambar-lagi">
         <img src="eraser.jpg" width="240px" height="150px" ><br> Eraser er-116
@@ -92,12 +196,8 @@
     <div class="gambar-lagi">
         <img src="pembatas.jpg" width="240px" height="150px" ><br> index im (paper)
                
-    </div>
-</div>
-    <br>
-    <br>
-    <br>
-    
+    </div> 
+</div> -->
     <div id="footer-bawah">
         <div id="footer">
             <div class="kolom-kuning">

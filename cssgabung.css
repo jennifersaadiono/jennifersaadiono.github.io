@@ -1,5 +1,5 @@
 /* CSS INDEX_UTAMA */
-#logo{
+/*#logo{
     display: block;
     margin: 10px auto;
     width: 260px;
@@ -12,21 +12,20 @@
     padding-bottom: 1px;
     margin: 0px auto 5px auto;
     background-color:transparent;
-   
-}
-a{
+} */
+/*a{
     text-decoration: none;
-}
-#menu-utama{
+}*/
+/* #menu-utama{
     position: relative;
     list-style: none;
-    /* width: 1000px; */
+    /*width: 1000px; 
     height: 40px;
     margin: 5px auto;
     margin-left: 200px;
-   
-}
-#menu-utama li{
+} */
+
+/*#menu-utama li{
     float : left;
     margin-left: 5px;
     margin-right: 5px;
@@ -35,34 +34,37 @@ a{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: uppercase;
     font-size: 10px;
-    
-
-}
-li :hover{ 
-    display: list-item;
-    
-  
-}
-.batas1{
+    }
+    */
+/*.batas1{
     position: relative;
-    /* border-left: 1px solid #d2d2d2; */
-    /* border-right: 1px solid #d2d2d2; */
+    /* border-left: 1px solid #d2d2d2; 
+    /* border-right: 1px solid #d2d2d2; 
     
     
-}
-li.batas{
+} */
+li.nav-item .nav-link{
     /* border-right: 1px solid #d2d2d2; */
+    color: #3f3f3f;
+    font-size: 13px;
     border: 1px solid;
+    outline: #3f3f3f;
     border-color: white white white #d2d2d2;
-    
-    
-    /* border-left: black; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
 }
-.batas:hover{
+.nav-item:hover .nav-link{
     color: orange;
 }
+
+/*.batas:hover{
+    color: orange;
+} */
+
 #search{
-    float: right;
+    
+    
 }
 .logo-bahasa{
     position: absolute;
@@ -72,9 +74,13 @@ li.batas{
     line-height: 20px;
     text-align: right;
 }
-.geser{
+/* .geser{
     display: none;
-}
+} */
+.carousel-inner .geser{
+    width: 100%;
+    height: 100%;
+  } 
 .text-tengah{
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -92,7 +98,7 @@ li.batas{
     float: left;
     display: block;
     border: 1px solid yellow;
-   margin-right: 10px;
+   margin-right: 15px;
    margin-left: 12px;
    font-size: 9px;
    font-weight: bold;

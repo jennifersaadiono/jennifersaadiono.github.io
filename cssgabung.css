@@ -386,24 +386,25 @@ h5{
 }
 
 /* CSS E-CATALOGUE */
+
 #katalogue{
-    text-align: center;
+    margin-top: 50px;
+    /*text-align: center;
     width: 100%;
     overflow: hidden;
-    margin-top: 10px;
+    margin-top: 10px; */
 }
 .katalogue-2{
     border: none;
     width: 300px;
     height: 500px;
-
 }
-#katalogue > .katalogue-2 {
+/*#katalogue >*/ .katalogue-2 {
     display: inline-block;
     vertical-align: top;
-    margin-right: 7px;
-    margin-left: 10px;
+    margin-left: 100px;
     margin-bottom: 15px;
+    text-align: center;
     
 }
 .tombol{

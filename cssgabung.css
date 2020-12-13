@@ -386,9 +386,12 @@ h5{
 }
 
 /* CSS E-CATALOGUE */
-
-#katalogue{
-    margin-top: 50px;
+.col-xl-4{
+    margin-left: 200px;
+    margin-right: -300px ;
+}
+.katalogue{
+    margin-left: 100px;
     /*text-align: center;
     width: 100%;
     overflow: hidden;
@@ -402,7 +405,6 @@ h5{
 /*#katalogue >*/ .katalogue-2 {
     display: inline-block;
     vertical-align: top;
-    margin-left: 100px;
     margin-bottom: 15px;
     text-align: center;
     

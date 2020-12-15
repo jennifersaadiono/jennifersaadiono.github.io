@@ -4,152 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cssgabung.css">
-    <title>Contact us</title>
+    <title>Joyko</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="header-atas">
-    <div id="logo">
-        <img src="joyko-logo.png" width="65%">
-    </div>
-
-
-    <ul id="menu-utama">
-        
-      <li class="batas"><a href="halaman_utama.html">Home</a></li>
-      <li class="batas"><a href="about_us.html">About US</a></li>
-      <li class="batas">product</li>
-      <li class="batas">joyart</li>
-      <li class="batas">TiTi</li>
-      <li class="batas"><a href="e_catalogue.html">E-Catalogue</a></li>
-      <li class="batas">Video</li>
-      <li class="batas"><a href="biodata.html">Biodata</a></li>
-      <li class="batas"><a href="contact_us.html">Contact Us</a></li>
-      <li class="batas"><img src="search-logo.png" style="width: 15px;" id="search">Search</li>
-  
-  </ul>
-    <div class="logo-bahasa">
-        <img src="id.png" alt="Indonesia">
-        <img src="en.png" alt="English">
-    </div>
-
-</div>  
-
-<h2 class="kontak">Contact form</form></h2>
-<hr class="garis">
-  
-<div class="container">
-        <form action="/action_page.php">
-        <div class="row">
-          <div class="col-25">
-            <label>Nama Lengkap : </label>
-          </div>
-          
-          <div class="col-75">
-            <input type="text" id="fname" name="firstname" placeholder="Masukkan Nama lengkap">
-          </div>
-        
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="lname">Email</label>
-          </div>
-          <div class="col-75">
-            <input type="email" id="lname" name="email" placeholder="Masukkan email">
-          </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-              <label>Username : </label>
-            </div>
+  <img src="joyko-logo.png" class="mx-auto d-block" width="15%">
+      <ul class="nav justify-content-center">
+          <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about_us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">joyart</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">TiTi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="e_catalogue.html">E-Catalogue</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Video</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="biodata.html">Biodata</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact_us.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-warning" href="#">search</a>
             
-            <div class="col-75">
-              <input type="text" id="Username" name="Username" placeholder="Masukkan Username">
+            </li>
+            <li class="nav-item">
+                <img src="search-logo.png" style="width: 20px;" id="search">
+            </li>
+            
+        </ul>
+      <div class="logo-bahasa">
+            <img src="id.png" alt="Indonesia">
+            <img src="en.png" alt="English">
+        </div>
+  </div>
+    <br>
+    <br>
+      <div id="contactus">
+        <p class="kontak">Contact US </p>
+        <hr>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputfirstname">Nama Depan :</label>
+              <input type="text" class="form-control" placeholder="Masukkan Nama Depan">
             </div>
-            <div class="row">
-                <div class="col-25">
-                  <label>Password :</label>
-                </div>
-                
-                <div class="col-75">
-                  <input type="password" id="password" name="password" placeholder="Masukkan password">
-                </div>
-        
-                <div class="row">
-            <div class="col-25">
-                <label for="jenis kelamin">Jenis kelamin : </label></div>
-                    <div class="col-75">
-                        <input type="radio" value="laki-laki"><label for="laki-laki">Laki-laki</label>
-                        <input type="radio" value="perempuan"><label for="perempuan">Perempuan</label>
-                    </div>
-                  </div>
-          
-                
-        <div class="row">
-          <div class="col-25">
-            <label for="agama">Agama :</label>
+            <div class="form-group col-md-6">
+              <label for="inputlastname">Nama Belakang :</label>
+              <input type="text" class="form-control" placeholder="Masukkan Nama Belakang">
+            </div>
           </div>
-          <div class="col-75">
-            <select id="agama" name="agama">
-              <option value="islam">Islam</option>
-              <option value="Kristen">Kristen</option>
-              <option value="Hindu">Hindu</option>
-              <option value="Budha">Budha</option>
-              <option value="Konghucu">Konghucu</option>
+          <div class="form-group">
+          <label>Alamat Email : </label>
+          <input type="text" class="form-control" placeholder="Masukkan Email">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="username">Username :</label>
+              <input type="text" class="form-control" placeholder="Masukkan Username">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="password">Password :</label>
+              <input type="password" class="form-control" placeholder="Masukkan Password">
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio
+              </label>
+            </div>
+            <div class="form-row">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Default checked radio
+              </label>
+            </div>
+            <br>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="Select">Agama</label>
+            <select class="form-control">
+              <option>Pilih Agama mu </option>
+              <option>Islam</option>
+              <option>Kristen Protestan</option>
+              <option>Kristen Katholik</option>
+              <option>Hindu</option>
+              <option>Buddha</option>
+              <option>Konghucu</option>
             </select>
           </div>
         </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="alamat">Alamat :</label>
-          </div>
-          <div class="col-75">
-            <textarea id="alamat" name="alamat" placeholder="Masukkan alamat..." style="height:70px"></textarea>
-          </div>
-        </div>
-            <div class="row">
-             <div class="col-25">
-                <label for="hobi">Hobby :</label></div>
-                    <div class="col-75">
-                        <input type="checkbox" value="membaca"><label for="membaca">Membaca Buku</label>
-                        <input type="checkbox" value="menyanyi"><label for="menyanyi">Menyanyi</label>
-                        <input type="checkbox" value="memancing"><label for="memancing">Memancing</label>
-                        <input type="checkbox" value="mendengar musik"><label for="mendengar musik">Mendengar Musik</label>
-                    </div>
-                  </div>
-        <br>
-        <div class="row">
-          <span><input type="submit" value="Submit"></span>
-        </div>
         </form>
-      </div>
-      <div id="footer-bawah">
-        <div id="footer">
+    </div>
+<div class="container-xl p-3 my-3 bg-warning ">
+    <div id="footer-bawah">
+        <div id="footer"> 
             <div class="kolom-kuning">
-                <h3>Contact Us</h3>
+              <h6 id="apaansi">Contact Us</h6>
                 <hr class="garis-batas">
                 <ul class="ulkuning">
                     <li class="kuning">Contact Us</li>
                     <li class="kuning">About Us</li>
                     <li class="kuning">Vision Mission</li>
                 </ul>
-
             </div>
-            <h3>Follow Us</h3>
-           <hr class="garis-batas1">
-            <ul class="ulkuning-sebelah">
+
+            <h6 id = "apasih">Follow Us</h6>
+                <hr class="garis-batas1">
+            <ul>
                 <img src="fb.png" style="width: 15px;" ><br><li class="kuning2">Joykoid</li>
                 <img src="ig.png" style="width:15px;" ><li class="kuning2">Joyko_id</li>
                 
             </ul>
         </div>
-            <h3 class="semoga">Official Store</h3>
+            <h6 class="semoga">Official Store</h6>
             <hr class="garis-batas2">
                 <span class="semoga2">
             <img src="tokopedia.png" style="width: 80px;"><img src="shopee.png" style="width: 80px;"><br>
             <img src="lazada.png" style="width: 80px;"><img src="bukalapak.png" style="width: 80px;"><br>
             <img src="jdid.png" style="width: 80px;"><img src="blibli.png" style="width: 80px;">
                     </span>
+                  </div>
+</div>
 
-    </div>
 </body>
+
 </html>
+
+<!--<br>
+    <br>
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img class="card2" src="jenni.jpg" width="100%" height="250"><rect width="100%" height="100%"></img>
+            
+        
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Founder's Biodata</h5>
+            <p class="card-text">It's a broader card with text below as a natural lead-in to extra content. This content is a little longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>

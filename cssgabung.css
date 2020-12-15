@@ -43,6 +43,9 @@
     
     
 } */
+#header{
+    position: fixed;
+}
 li.nav-item .nav-link{
     /* border-right: 1px solid #d2d2d2; */
     color: #3f3f3f;
@@ -422,3 +425,11 @@ h5{
     color: white;
 }
 
+/* CSS CONTACT US */
+#contactus{
+    margin-left: 200px;
+    margin-right: 150px;
+}
+.kontak{
+    font-size: larger;
+}

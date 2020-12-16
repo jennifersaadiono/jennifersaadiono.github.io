@@ -43,13 +43,13 @@
     
     
 } */
-#header{
+/*#header{
     position: fixed;
     top : 0;
     right: 0;
     left: 0;
     z-index: 1030;
-}
+}*/
 li.nav-item .nav-link{
     /* border-right: 1px solid #d2d2d2; */
     color: #3f3f3f;

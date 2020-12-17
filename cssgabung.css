@@ -50,6 +50,15 @@
     left: 0;
     z-index: 1030;
 }*/
+#header-atas{
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: white;
+
+}
 li.nav-item .nav-link{
     /* border-right: 1px solid #d2d2d2; */
     color: #3f3f3f;
@@ -74,9 +83,9 @@ li.nav-item .nav-link{
     
 }
 .logo-bahasa{
-    position: absolute;
+    position: fixed;
     top: 40px;
-    right: 300px;
+    right: 240px;
     width: 70px;
     line-height: 20px;
     text-align: right;
@@ -98,7 +107,8 @@ li.nav-item .nav-link{
     margin: 10px;
 }
 .samping{
-    margin-left: 150px; 
+    margin-left: 200px; 
+    margin-right: 150px;
 }
 
 .gambar{
@@ -159,7 +169,7 @@ li.nav-item .nav-link{
     margin-top: 200px;
 } */
 
-#footer{
+ #footer{
     clear: both;
     position: relative;
    
@@ -168,8 +178,8 @@ li.nav-item .nav-link{
 
  #footer .kolom-kuning{ 
     float: left;
-    min-height: 10px;
-    margin-right: 50px;
+    min-height: 5px;
+    margin-right: 100px;
 } 
 
 h5{
@@ -256,11 +266,14 @@ h5{
 
 
 /* CSS BIODATA */
-.card-title{
+
+.card-title >.card-title{
     color: red;
+    position: fixed;
 }
 .card-body{
-   float: right;
+    float: right;
+    
 }
 /*.tulisan-atas{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -397,12 +410,15 @@ h5{
     text-transform: none;
     text-align: justify;
 }
+.tulisan-atas{
+    float: right;
+}
 
 /* CSS E-CATALOGUE */
 .col-xl-4{
     margin-left: 200px;
     margin-right: -300px ;
-}
+} 
 .katalogue{
     margin-left: 100px;
     /*text-align: center;
